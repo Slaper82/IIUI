@@ -1,0 +1,47 @@
+--Skrypty do transakacji IIUI
+
+--Baza B
+  
+  DEclare @Medid as nvarchar(50), @area as int,@quant as int, @datatr as date,
+  @min as INT = 100,@max as INT = 2000,@i as int;
+  set @i=1
+begin
+while @i<20000
+	begin
+	set @Medid=(select top 1 MeD_ID from B_GF_ProductDetails order by NewID())
+	set @area = (select top 1 GFAreaID from B_GF_Areas order by NewID())
+	set @quant= (SELECT @min + ROUND(RAND() * (@max - @min), 0));
+	
+	set @datatr=(SELECT DATEADD(DAY, ABS(CHECKSUM(NEWID()) %1460 ), '2010-01-01'))
+	begin
+		insert into B_GF_Sale values (@Medid,@area,@quant,@datatr);
+		end
+   set @i=@i+1;
+	end
+	end
+	go
+
+	
+
+--Baza A
+  
+  DEclare @ProdId as int, @RegId as int,@quant as int, @day as int,@month as int,@rok as int
+ ,@min as INT = 100,@max as INT = 2000,@mindat as int=1,@maxd as int=28,@maxmth as int=12,@minr as int = 2010
+ ,@maxr as int =2014,@i as int;
+  set @i=1
+begin
+while @i<50000
+	begin
+	set @ProdId=(select top 1 SFProductId from A_SF_Product order by NewID())
+	set @RegId  = (select top 1 SFRegionID from A_SF_Region order by NewID())
+	set @quant= (SELECT @min + ROUND(RAND() * (@max - @min), 0));
+	set @day= (SELECT @mindat + ROUND(RAND() * (@maxd - @mindat), 0));
+	set @month= (SELECT @mindat + ROUND(RAND() * (@maxmth - @mindat), 0));
+	set @rok= (SELECT @minr + ROUND(RAND() * (@maxr - @minr), 0));
+	begin
+		insert into A_SF_Sales values (@ProdId,@RegId,@quant,@day,@month,@rok);
+		end
+   set @i=@i+1;
+	end
+	end
+	go

@@ -1,0 +1,164 @@
+﻿<DataSourceView xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="ec068a52-891e-4e45-8870-94c78bf979b4" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>SSIS_Pack</ID>
+  <Name>SSIS_Pack</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:CurrentLayout</Name>
+      <Value>_ALL_TABLES_</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:SchemaRestriction</Name>
+      <Value></Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:RetrieveRelationships</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:Layouts</Name>
+      <Value>
+        <Layouts xmlns="">
+          <Diagram>
+            <Name>_ALL_TABLES_</Name>
+            <DiagramLayout />
+            <ShowRelationshipNames>False</ShowRelationshipNames>
+            <UseDiagramDefaultLayout>True</UseDiagramDefaultLayout>
+            <DiagramViewPortLeft>0</DiagramViewPortLeft>
+            <DiagramViewPortTop>0</DiagramViewPortTop>
+            <DiagramBoundingLeft>0</DiagramBoundingLeft>
+            <DiagramBoundingTop>0</DiagramBoundingTop>
+            <DiagramZoom>100</DiagramZoom>
+          </Diagram>
+        </Layouts>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <DataSourceID>SSIS_Pack</DataSourceID>
+  <Schema>
+    <xs:schema id="SSIS_Pack" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+      <xs:element name="SSIS_Pack" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:design-time-name="a4de305c-5082-4c88-a291-dd2071e4a7ea">
+        <xs:complexType>
+          <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:element name="dbo_C_DimCycle" msprop:design-time-name="218ea978-bad4-45ae-803f-bcec96d9bec2" msprop:DbTableName="C_DimCycle" msprop:FriendlyName="C_DimCycle" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="Id" msprop:design-time-name="2109c18b-5d58-43cc-94a3-9cb574af2a50" msprop:DbColumnName="Id" msprop:FriendlyName="Id" type="xs:int" />
+                  <xs:element name="Rok" msprop:design-time-name="a4ebeef2-2af1-4f65-80c1-d2a6c4fd274b" msprop:DbColumnName="Rok" msprop:FriendlyName="Rok" type="xs:short" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_C_DimProduct" msprop:design-time-name="320e7f75-cb5f-4faa-8c65-e9d338119951" msprop:DbTableName="C_DimProduct" msprop:FriendlyName="C_DimProduct" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="ProductId" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="4e4cf7d1-04bb-47c4-b7cf-87792fa9d4b8" msprop:DbColumnName="ProductId" msprop:FriendlyName="ProductId" type="xs:int" />
+                  <xs:element name="ProductName" msprop:design-time-name="aa4ffa25-5960-485d-a83e-feb62670da73" msprop:DbColumnName="ProductName" msprop:FriendlyName="ProductName">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="MeD_ID" msprop:design-time-name="1d913cbf-02c9-4317-9bd5-d7b18d54d7ea" msprop:DbColumnName="MeD_ID" msprop:FriendlyName="MeD_ID">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="20" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="ProductDet" msprop:design-time-name="a5c62a73-5fc1-4bfe-bd22-7416fa2eab77" msprop:DbColumnName="ProductDet" msprop:FriendlyName="ProductDet">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_C_DimTerritory" msprop:design-time-name="1535e319-db3b-4796-855c-e22c4a080cbd" msprop:DbTableName="C_DimTerritory" msprop:FriendlyName="C_DimTerritory" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="TerritoryID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="1871ae34-5627-42ba-9a25-d0b27661e68d" msprop:DbColumnName="TerritoryID" msprop:FriendlyName="TerritoryID" type="xs:int" />
+                  <xs:element name="TerritoryName" msprop:design-time-name="5eefdc2d-8cff-44a4-894d-c506c1283b7a" msprop:DbColumnName="TerritoryName" msprop:FriendlyName="TerritoryName">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_C_DimZrdlo" msprop:design-time-name="8b8e0e12-cfc8-4081-8da6-7edbfa21ea33" msprop:DbTableName="C_DimZrdlo" msprop:FriendlyName="C_DimZrdlo" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="IdBazy" msprop:design-time-name="01b36b00-5822-4c5f-b1d8-a8485c091cdb" msprop:DbColumnName="IdBazy" msprop:FriendlyName="IdBazy" type="xs:int" />
+                  <xs:element name="Nazwa" msprop:design-time-name="24a1dda4-d5d3-477b-9929-8b11132ad853" msprop:DbColumnName="Nazwa" msprop:FriendlyName="Nazwa">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="30" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_C_FactSales" msprop:design-time-name="8f989b58-20db-4f65-9df1-f52d840e18e2" msprop:DbTableName="C_FactSales" msprop:FriendlyName="C_FactSales" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="SalesId" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="3b63b7b4-71e6-4397-815a-30223fb01fdd" msprop:DbColumnName="SalesId" msprop:FriendlyName="SalesId" type="xs:int" />
+                  <xs:element name="ProductId" msprop:design-time-name="761e9a30-3348-486f-a6d0-15d75629035d" msprop:DbColumnName="ProductId" msprop:FriendlyName="ProductId" type="xs:int" />
+                  <xs:element name="TerritoryID" msprop:design-time-name="cdfa5aa8-7d47-4eee-870f-27a3827a838e" msprop:DbColumnName="TerritoryID" msprop:FriendlyName="TerritoryID" type="xs:int" />
+                  <xs:element name="SFUnits" msprop:design-time-name="f69def69-1e60-4033-91c3-5c642f8cd322" msprop:DbColumnName="SFUnits" msprop:FriendlyName="SFUnits" type="xs:int" />
+                  <xs:element name="SFValue" msprop:design-time-name="d5d9cb62-7676-40ef-acd7-c19241fb7397" msprop:DbColumnName="SFValue" msprop:FriendlyName="SFValue" type="xs:double" />
+                  <xs:element name="IdCycle" msprop:design-time-name="57a4f1eb-a46f-4e34-adab-d9e572d8e34f" msprop:DbColumnName="IdCycle" msprop:FriendlyName="IdCycle" type="xs:int" />
+                  <xs:element name="Data" msprop:design-time-name="eaf033ba-99ff-4881-b8d3-2641f3329317" msprop:DbColumnName="Data" msprop:FriendlyName="Data" type="xs:dateTime" />
+                  <xs:element name="IdDB" msprop:design-time-name="def8f13a-d716-490a-a4d0-038567b4dac7" msprop:DbColumnName="IdDB" msprop:FriendlyName="IdDB" type="xs:int" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+          </xs:choice>
+        </xs:complexType>
+        <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_C_DimCycle" />
+          <xs:field xpath="Id" />
+        </xs:unique>
+        <xs:unique name="dbo_C_DimProduct_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_C_DimProduct" />
+          <xs:field xpath="ProductId" />
+        </xs:unique>
+        <xs:unique name="dbo_C_DimTerritory_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_C_DimTerritory" />
+          <xs:field xpath="TerritoryID" />
+        </xs:unique>
+        <xs:unique name="dbo_C_DimZrdlo_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_C_DimZrdlo" />
+          <xs:field xpath="IdBazy" />
+        </xs:unique>
+        <xs:keyref name="FK_C_FactSales_C_DimCycle" refer="Constraint1">
+          <xs:selector xpath=".//dbo_C_FactSales" />
+          <xs:field xpath="IdCycle" />
+        </xs:keyref>
+        <xs:keyref name="FK_C_Sales_C_Product" refer="dbo_C_DimProduct_Constraint1">
+          <xs:selector xpath=".//dbo_C_FactSales" />
+          <xs:field xpath="ProductId" />
+        </xs:keyref>
+        <xs:keyref name="FK_C_Sales_C_Territory" refer="dbo_C_DimTerritory_Constraint1">
+          <xs:selector xpath=".//dbo_C_FactSales" />
+          <xs:field xpath="TerritoryID" />
+        </xs:keyref>
+        <xs:keyref name="FK_C_FactSales_C_DimZrdlo" refer="dbo_C_DimZrdlo_Constraint1">
+          <xs:selector xpath=".//dbo_C_FactSales" />
+          <xs:field xpath="IdDB" />
+        </xs:keyref>
+      </xs:element>
+    </xs:schema>
+    <SSIS_Pack xmlns="" />
+  </Schema>
+</DataSourceView>

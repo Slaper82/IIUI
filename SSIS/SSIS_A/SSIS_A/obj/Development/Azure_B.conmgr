@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="Azure_B"
+  DTS:DTSID="{1FA8BA82-83C6-4EC3-8008-463F98DD26AA}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectionString="Data Source=pf001.database.windows.net,1433;User ID=przefoltyn;Initial Catalog=SSIS_B;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;">
+      <DTS:Password
+        DTS:Name="Password"
+        Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA/Uc6W/JcrEu3F649p2YlUgAAAAACAAAAAAAQZgAAAAEAACAAAAC96p5cCjcOUaZRNusGckFHBAkHLlSQgyP5I4BcoteKUAAAAAAOgAAAAAIAACAAAABAZ2w5lEQit2OFsLz2JbxEDNUSoj1ddwSz/lOSpDtCUYAAAAA0foPJdjnNaj5SHH3kARsGTCXGtaiba3NWxf3gXgaI93xZArhqmMjfpMOsnOSoPBBZt0Iqp4fcppGIM+N/wwxsVCK0OnYV6Kmgw5OsOdydYBHrcS7oG96c61FnsDELbvJ7mzFg/+RRsK0328+T8vfY1zdFqBKaDPmBo+qWzXDhk0AAAACmvK7RMSJIxX1qBztNkqMQvbhCRCczTtlawr7NMfubizz+aYY25mAoDeFjZEuTYFC2QYOtL/14lF3oRCwP9ohF</DTS:Password>
+    </DTS:ConnectionManager>
+  </DTS:ObjectData>
+</DTS:ConnectionManager>

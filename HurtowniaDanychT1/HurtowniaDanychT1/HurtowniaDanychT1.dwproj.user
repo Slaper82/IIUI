@@ -1,0 +1,49 @@
+<AnalysisServicesUserConfiguration xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Configurations>
+    <Configuration>
+      <Name>Development</Name>
+      <Options>
+        <UserIDs>
+          <ConfigurationSetting>
+            <Id>1070 SSIS C</Id>
+            <Name>1070 SSIS C</Name>
+            <Value xsi:type="xsd:string">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA/Uc6W/JcrEu3F649p2YlUgAAAAAYAAAAMQAwADcAMAAgAFMAUwBJAFMAIABDAAAAEGYAAAABAAAgAAAAzhYRD4wdXwBizUtz2ISkfjfcdzbUvNkNTAMc9bpoxisAAAAADoAAAAACAAAgAAAAhsGcQP7f49EZbVjX2+wMC3leO8GZzDUHIGhGx5f4P3QQAAAAqp9CFA2PnF2dkub/Ho8deEAAAABxRdcl2r9IrgQPiwui11VcKfoH2gYk46277+zqrkC8WzhFIjDkHWomkQubFPrblWJjrKyL2Z5ckIpjcuuNfMn+</Value>
+          </ConfigurationSetting>
+          <ConfigurationSetting>
+            <Id>SSIS C</Id>
+            <Name>SSIS C</Name>
+            <Value xsi:type="xsd:string">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA/Uc6W/JcrEu3F649p2YlUgAAAAAOAAAAUwBTAEkAUwAgAEMAAAAQZgAAAAEAACAAAABovqgvnfRKT9z+JjhhA9LsKvyvYvJifWRrZrnFe38shQAAAAAOgAAAAAIAACAAAABI2Kv2z9H/kscWhXTf6yCIuW/WXq5WBCy53/76jTeR4SAAAACg0yuUo9/kmOR2taGBXxopWKhXQzmXOU1Iu2tn2g+tI0AAAAAwdV7Eu81Sq1XHo34Wf9xJaABNed78Mof/lSFxD9o6tkGbHjtAP2uNHnzfnez6VAf6raNp0zUgCq154WL0+ZDP</Value>
+          </ConfigurationSetting>
+          <ConfigurationSetting>
+            <Id>SSIS_Pack</Id>
+            <Name>SSIS_Pack</Name>
+            <Value xsi:type="xsd:string">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA/Uc6W/JcrEu3F649p2YlUgAAAAAUAAAAUwBTAEkAUwBfAFAAYQBjAGsAAAAQZgAAAAEAACAAAABGL0ERMRlc7V06hacrnzsM+BWS/UDleE9tGGFeQZw/GgAAAAAOgAAAAAIAACAAAACwMrSDbWEcolD1Z3MFwopHZY6jITLIoVU/bc9yngdpXSAAAAAp0uAf43C5I+7NE8dGteVc3dvAVXF6y8vl/hIppX8PNUAAAADzjb7AbpA4wbolzOW5fiMpu2DEon/MAO+XSTttVVRVOM6AxTwkAChBC5smV2VwDlOhgYx+zfLfhoChBO9nxOg5</Value>
+          </ConfigurationSetting>
+        </UserIDs>
+        <UserPasswords>
+          <ConfigurationSetting>
+            <Id>1070 SSIS C</Id>
+            <Name>1070 SSIS C</Name>
+            <Value xsi:type="xsd:string">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA/Uc6W/JcrEu3F649p2YlUgAAAAAYAAAAMQAwADcAMAAgAFMAUwBJAFMAIABDAAAAEGYAAAABAAAgAAAAGky/jjcRbOwUPxzKasgpHGTZBKoGclLbggkpj4zYl0IAAAAADoAAAAACAAAgAAAA13SpsIP5W5HPXN2hq9rWlfavQm+AITrRrnFJW5hwdJogAAAA1z7eJCwKAZNZc1zdnjSxMO32h3mePraI7Xom10g5KQ5AAAAAtmXXd+KRaNIFppEEjANRGNCoVeRuqhmoLaRMIGgeTH4sIL1PGSWBdrWqr/wphxRYr3tyu34zW9bJzXONYxDdzg==</Value>
+          </ConfigurationSetting>
+          <ConfigurationSetting>
+            <Id>SSIS C</Id>
+            <Name>SSIS C</Name>
+            <Value xsi:type="xsd:string">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA/Uc6W/JcrEu3F649p2YlUgAAAAAOAAAAUwBTAEkAUwAgAEMAAAAQZgAAAAEAACAAAADglxKa6zSacYJoIBdzfEqS3Bn6KVDQhap2rZlL0g+n8AAAAAAOgAAAAAIAACAAAACKJUtKjw/uze4gcDNAZNq6diippeY5RIS3WPQRQ8zH7SAAAACPmH18P6UnRmrHvL81AhedyoTYV0RIfsTSEunUwMb6o0AAAAAnnYkjX7patsTH7ix33MvrYAlc7Ruo84fHqG5uQiPjv1RKGSnZpFN4rV3XP9ekQjAU8gYhPPxyVBCgHRz2bYKc</Value>
+          </ConfigurationSetting>
+          <ConfigurationSetting>
+            <Id>SSIS_Pack</Id>
+            <Name>SSIS_Pack</Name>
+            <Value xsi:type="xsd:string">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA/Uc6W/JcrEu3F649p2YlUgAAAAAUAAAAUwBTAEkAUwBfAFAAYQBjAGsAAAAQZgAAAAEAACAAAACnE/NUOXi0uqrKXtB0gsNGWJtqkreEaZN9CBI1jq//GgAAAAAOgAAAAAIAACAAAABKSmYjKzlsmD1b0ub8xHxcVfGmfaowksEQEXJp/DgwiiAAAAC+U44URr5hYb7qAEuzh4NHJuuatT8oofqmDHqlNDxnRUAAAADsesgTVcvh3xxggqB7QKmZrkkg4Y73uNthQC5h2qQb4Q8dfmMeIdEuEkAJLasHwbMj65pYahvvKFpVWd+P8DsZ</Value>
+          </ConfigurationSetting>
+        </UserPasswords>
+        <TargetServer>localhost</TargetServer>
+        <TargetDatabase>HurtowniaDanychT1</TargetDatabase>
+        <StartObject>
+          <ObjectId></ObjectId>
+          <ObjectType>Current</ObjectType>
+        </StartObject>
+      </Options>
+    </Configuration>
+  </Configurations>
+</AnalysisServicesUserConfiguration>

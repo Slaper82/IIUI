@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="mssql01.dcsweb.pl,51433.1070_SSIS_C.1070_sa"
+  DTS:DTSID="{5FD34750-E8F1-4940-A1CC-CA69D90C01B4}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectionString="Data Source=mssql01.dcsweb.pl,51433;User ID=1070_sa;Initial Catalog=1070_SSIS_C;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;">
+      <DTS:Password
+        DTS:Name="Password"
+        Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAm49RpvCMHECFHSjXPwvw2gAAAAACAAAAAAAQZgAAAAEAACAAAADZ3nX8/TmiZ6bgoDVVk3Fbr9e+UEoBZokYcWDp6+EhYgAAAAAOgAAAAAIAACAAAAAWnmHh6HEVSyEumlBH/2anin4m6WBG9v/qWIfH2PK7YoAAAAAWSyKD+qcikk/YpUu6Ow7KaLpwFnDN5th+Bdr40WUtQhL/7wQuR/nK2D9HWyGC9rwga3Rjy5GjxvRtmUVCPlfJNtlORlnxSqr3bMyQAZcV8ZXJiTX3fho8RfIe7B6l7WYWcqNsK8Z6SsGm8BuYn8AwFe911xKblPvlFKRhTBp01UAAAABI3jpYo50f9rUTHmqcj9V8iiz93FPIs03o+cBwTWeIQVELVOgsx2UwTrE9p0folxoh1zLVwizGoJYnZzAFfPUr</DTS:Password>
+    </DTS:ConnectionManager>
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
