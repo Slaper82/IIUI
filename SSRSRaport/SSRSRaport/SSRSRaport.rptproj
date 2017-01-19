@@ -21,7 +21,7 @@
       <Options>
         <OutputPath>bin\Debug</OutputPath>
         <TargetServerVersion>SSRS2016</TargetServerVersion>
-        <TargetServerURL>http://mrok/SQL2014/reportserver</TargetServerURL>
+        <TargetServerURL>http://mrok/Reports_sql2014</TargetServerURL>
         <TargetFolder>SSRSRaport</TargetFolder>
         <TargetDataSourceFolder>Data Sources</TargetDataSourceFolder>
         <TargetDatasetFolder>Datasets</TargetDatasetFolder>
