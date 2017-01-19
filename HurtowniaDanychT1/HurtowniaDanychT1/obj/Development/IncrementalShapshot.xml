@@ -19,56 +19,56 @@
     <ObjectSnapshots>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
-        <TimeStamp>Uh6DGynUDu7+6MqYMgMrLL0u5Vo=2017-01-16 09:37:482017-01-16 09:37:48</TimeStamp>
+        <TimeStamp>Uh6DGynUDu7+6MqYMgMrLL0u5Vo=2017-01-19 12:43:472017-01-19 12:43:47</TimeStamp>
         <ID>
           <String>SSIS_Pack</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.DataSourceView</Type>
-        <TimeStamp>3ds+92jryULAHrzfog72iBOGt4Y=2017-01-16 09:38:162017-01-16 09:38:13</TimeStamp>
+        <TimeStamp>3ds+92jryULAHrzfog72iBOGt4Y=2017-01-19 12:43:472017-01-19 12:43:47</TimeStamp>
         <ID>
           <String>SSIS_Pack</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>g4yuQ5NH5VsyyfUnx+r+GcHFZAU=2017-01-16 09:55:092017-01-16 09:38:34</TimeStamp>
+        <TimeStamp>g4yuQ5NH5VsyyfUnx+r+GcHFZAU=2017-01-19 12:43:472017-01-19 12:43:47</TimeStamp>
         <ID>
           <String>C Dim Zrdlo</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>ndGZZ9VtnARJp3YcnKpf4NvikI4=2017-01-16 09:55:092017-01-16 09:38:34</TimeStamp>
+        <TimeStamp>ndGZZ9VtnARJp3YcnKpf4NvikI4=2017-01-19 12:43:472017-01-19 12:43:47</TimeStamp>
         <ID>
           <String>C Dim Territory</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>0Uvw7g569aOu1F7gH3vsBGBlcBY=2017-01-16 09:55:092017-01-16 09:38:35</TimeStamp>
+        <TimeStamp>0Uvw7g569aOu1F7gH3vsBGBlcBY=2017-01-19 12:43:472017-01-19 12:43:47</TimeStamp>
         <ID>
           <String>C Dim Product</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>LbVzBeWDja3/qyxWRbaMcEmlLHU=2017-01-16 09:55:092017-01-16 09:38:35</TimeStamp>
+        <TimeStamp>LbVzBeWDja3/qyxWRbaMcEmlLHU=2017-01-19 12:43:472017-01-19 12:43:47</TimeStamp>
         <ID>
           <String>C Dim Cycle</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Cube</Type>
-        <TimeStamp>EH8jkPdYGrJK1EKqYaDF2ZCy0a8=2017-01-16 13:50:502017-01-16 09:38:34nUK4wABINVOwHZSOwfpOjiyA5/k=2017-01-16 09:38:352017-01-16 09:38:34</TimeStamp>
+        <TimeStamp>EH8jkPdYGrJK1EKqYaDF2ZCy0a8=2017-01-19 12:43:472017-01-19 12:43:47nUK4wABINVOwHZSOwfpOjiyA5/k=2017-01-19 12:43:472017-01-19 12:43:47</TimeStamp>
         <ID>
           <String>SSIS_Pack</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Role</Type>
-        <TimeStamp>SzU5dWyZbF6Sy3wCK1KOQBRVLJg=2016-12-08 00:00:002016-12-08 00:00:00</TimeStamp>
+        <TimeStamp>SzU5dWyZbF6Sy3wCK1KOQBRVLJg=2017-01-19 12:43:472017-01-19 12:43:47</TimeStamp>
         <ID>
           <String>Role</String>
         </ID>
@@ -76,7 +76,7 @@
     </ObjectSnapshots>
     <DatabaseSnapshot>
       <Type>Microsoft.AnalysisServices.Database</Type>
-      <TimeStamp>eya6jSNCma2oNdBhpkvsPrOKyOg=2016-12-08 00:00:002016-12-08 00:00:00</TimeStamp>
+      <TimeStamp>eya6jSNCma2oNdBhpkvsPrOKyOg=2017-01-19 12:43:472017-01-19 12:43:47</TimeStamp>
       <ID>
         <String>HurtowniaDanychT1</String>
       </ID>
@@ -85,5 +85,5 @@
   </Snapshot>
   <AssemblyLocations />
   <ProcessingComplete>true</ProcessingComplete>
-  <LastDeployed>2017-01-16T12:50:52.266667Z</LastDeployed>
+  <LastDeployed>2017-01-19T12:37:37.42Z</LastDeployed>
 </DeploymentSnapshot>
