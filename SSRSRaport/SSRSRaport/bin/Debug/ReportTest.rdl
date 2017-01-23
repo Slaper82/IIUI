@@ -948,7 +948,7 @@
                         <Color>Gainsboro</Color>
                         <Style>None</Style>
                       </Border>
-                      <FontSize>8pt</FontSize>
+                      <FontSize>2pt</FontSize>
                       <Color>#5c5c5c</Color>
                     </Style>
                     <ChartAxisTitle>
@@ -958,7 +958,6 @@
                         <Color>#5c5c5c</Color>
                       </Style>
                     </ChartAxisTitle>
-                    <Margin>False</Margin>
                     <IntervalType>Default</IntervalType>
                     <ChartMajorGridLines>
                       <Enabled>False</Enabled>
@@ -1005,7 +1004,6 @@
                     <LabelsAutoFitDisabled>true</LabelsAutoFitDisabled>
                     <MinFontSize>5pt</MinFontSize>
                     <MaxFontSize>5pt</MaxFontSize>
-                    <HideEndLabels>true</HideEndLabels>
                     <ChartAxisScaleBreak>
                       <Style />
                     </ChartAxisScaleBreak>
